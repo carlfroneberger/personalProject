@@ -147,6 +147,16 @@ hr
     line-height: 1.5em;
 }
 
+.partHidden a
+{
+    text-decoration: none;
+}
+
+.partHidden a:visited
+{
+    color: #00f;
+}
+
 #footer
 {
     display: table;
