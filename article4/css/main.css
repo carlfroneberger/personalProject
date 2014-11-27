@@ -1,4 +1,6 @@
-dth: 994px;
+#wrapper
+{
+    width: 994px;
     margin-right: auto;
     margin-left: auto;
 }
@@ -133,4 +135,3 @@ hr
 
     display: table-cell;
 }
-
