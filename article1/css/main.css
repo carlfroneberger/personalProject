@@ -101,9 +101,8 @@ hr
 
     width: auto;
     max-height: 180px;
-    margin-left: 10px;
     margin-bottom: 10px;
-
+    margin-left: 10px;
 }
 
 #content a
@@ -134,4 +133,65 @@ hr
     line-height: 2em;
 
     display: table-cell;
+}
+
+#respond
+{
+    width: 66%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+#respond h2
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1.3em;
+    font-weight: 400;
+}
+
+#respond label
+{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+
+    display: block;
+
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#respond input[type='text'],
+#respond input[type='email'],
+#respond textarea
+{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 1em;
+    font-weight: 300;
+    line-height: 1.4em;
+
+    display: block;
+
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 5px;
+
+    border: 2px solid #cfcfcf;
+    outline: none;
+}
+
+#respond input[type='submit']
+{
+    font-size: 1em;
+
+    margin-bottom: 40px;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+
+    cursor: pointer;
+
+    border: 2px solid #cfcfcf;
+    background-color: #fff;
 }
