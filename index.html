@@ -11,15 +11,9 @@
 		<link rel="stylesheet"
 			  type="text/css"
 			  href="css/main.css">
-		<script type="text/JavaScript"
-			  src="scripts/script.js">
-</script>
 		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,400|Raleway:200'
-			  rel='stylesheet'
-			  type='text/css'>
-		<script type="text/JavaScript"
-			  src="scripts/prefixfree.min.js">
-</script>
+		rel='stylesheet'
+		type='text/css'>
 		<title>
 			Home
 		</title>
@@ -150,5 +144,19 @@
 				</p>
 			</div>
 		</div>
+
+		<audio src="song.mp3" id="song" loop preload></audio>
+
+		<script type="text/JavaScript"
+		src="scripts/script.js">
+		</script>
+		<script type="text/JavaScript"
+		src="scripts/prefixfree.min.js">
+		</script>
+		<script type="text/JavaScript" src="scripts/cheet.js"></script>
+		</script>
+		<script type="text/JavaScript">
+		cheet('↑ ↑ ↓ ↓ ← → ← → b a', function () { document.getElementById("song").play(); });
+		</script>
 	</body>
 </html>
